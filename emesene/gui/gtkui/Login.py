@@ -752,7 +752,7 @@ class Login(LoginBase):
             if(model.get(iter,0)[0]==user_data[0]):
                 user_data[2].set_active(user_data[1])
                 return True
-            user_data[1]+=1
+            user_data[1] += 1
             return False
 
         i = 0
